@@ -1,0 +1,27 @@
+.container {
+  padding: 5px;
+
+  pre {
+    background-color: #cfe2f3;
+    border: 1px solid #777;
+    color: #333;
+    border-radius: 2px;
+    padding: 10px;
+
+    code {
+      font-family: 'Courier New', Courier, monospace;
+    }
+  }
+
+  h1 {
+    text-align: center;
+  }
+}
+
+.preview-content {
+  background-color: white;
+  padding: 0px;
+  border: 1px solid black;
+  height: 100%;
+  overflow-y: scroll;
+}
